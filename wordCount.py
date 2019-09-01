@@ -6,7 +6,6 @@ Created on Sat Aug 31 15:41:41 2019
 import sys        # command line arguments
 import re         # regular expression tools
 import os         # checking if file exists
-import subprocess # executing program
 
 if len(sys.argv) is not 3:
     print("Correct usage: wordCount.py <input text file> <output file>")
